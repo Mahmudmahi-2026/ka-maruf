@@ -4,54 +4,56 @@
     box-sizing: border-box;
 }
 
-/* shared-style */
+
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+ 
 }
-.logo h2{
-    font-size: 45;
+
+.logo h2 {
+    font-size: 35px;
     font-weight: 900;
 }
 
-.color-orange{
+.color-orange {
     color: #FD6E0A;
 }
 
 .btn {
     background-color: #FD6E0A;
-    border: none;
-    border-radius: 5px;
     padding: 18px 36px;
     font-size: 20px;
     font-weight: bolder;
     color: white;
+    border-radius: 5px;
+    border: none;
 }
 
-/* main-style */
 header {
-background-color: #FFF8F3;
-padding: 20px 0 0 0;
+    background-color: #fff8f3;
+    padding: 20px;
 }
 
-nav{
-    width: 71%;
+nav {
+    width: 81%;
     max-width: 1140;
-    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
-nav .menu{
+nav .menu {
     display: flex;
     list-style: none;
-    gap: 51px;
+    gap: 80px;
     align-items: center;
+
 }
 
-nav .menu a{
+nav .menu a {
+    color:black;
     font-size: 20px;
-    color: #474747;
-    text-decoration: none;  
+    text-decoration: none;
 }
